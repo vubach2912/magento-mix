@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VB_MagentoMix>
+            <active>true</active>
+            <codePool>community</codePool>
+        </VB_MagentoMix>
+    </modules>
+</config>

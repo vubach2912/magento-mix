@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <default>
+        <reference name="before_body_end">
+            <block type="core/text" name="addtocart_controller_js">
+                <action method="setText">
+                    <text><![CDATA[<script src="/js/magento-mix/public/app.js"></script>]]></text>
+                </action>
+            </block>
+        </reference>
+    </default>
+
+    <magentomix_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="magentomix/index" name="magentomix_index" template="magentomix/index.phtml"/>
+        </reference>
+    </magentomix_index_index>
+</layout>   
+	
